@@ -1,0 +1,54 @@
+.modal-open {
+  overflow: inherit !important;
+  padding-right: 0px !important;
+}
+
+.header {
+  background-color: #1f1f1f;
+}
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar>.container-fluid {
+  padding-right: 35px;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgb(219, 64, 62);
+  border-color: rgb(219, 64, 62);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../assets/icons/icon-menu.svg);
+}
+
+.offcanvas {
+  background-color: #1a1a1a;
+}
+
+.offcanvas-title {
+  color: rgb(219, 64, 62);
+}
+
+.btn-close {
+  background-image: url(../assets/icons/close-btn.svg);
+}
+
+.btn-close:focus {
+  box-shadow: none;
+}
+
+.modal-menu a {
+  color: rgb(219, 64, 62);
+}
+
+.modal-menu a:hover {
+  color: rgb(205, 56, 55);
+}

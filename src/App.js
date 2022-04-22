@@ -4,11 +4,12 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Photo from './pages/Photo';
 import ErrorPage from './pages/ErrorPage';
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <header></header>
+      <Header />
       <main className="main-wrapper">
         <Routes>
           <Route path="/" element={<Home />} />
