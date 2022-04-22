@@ -1,0 +1,51 @@
+.photo-wrapper {
+  display: flex;
+  position: relative;
+  width: 40%;
+}
+
+.photo-wrapper:hover {
+  box-shadow: rgba(180, 179, 177, 0.35) 0px 10px 20px;
+}
+
+.opacity::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.5;
+  transition: background 0.2s linear 0s;
+}
+
+.photo-button {
+  position: absolute;
+  width: 180px;
+  padding: 18px;
+  left: calc(50% - 90px);
+  top: calc(50% - 25px);
+  z-index: 3;
+  background-color: rgb(219, 64, 62);
+  border: none;
+  outline: none;
+  font-weight: 600;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 3px;
+  transition: background 0.2s linear 0s;
+}
+
+.photo-button:hover {
+  background-color: rgb(205, 56, 55);
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}

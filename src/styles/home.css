@@ -1,0 +1,35 @@
+.main-pg__title {
+  margin-bottom: 45px;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.nav-pills .nav-link {
+  padding: 1rem;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid darkgray;
+  border-bottom: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-item:last-child .nav-link {
+  border-bottom: 2px solid darkgray;
+}
+
+.nav-pills .nav-link.active {
+  color: #fff;
+  background-color: rgb(219, 64, 62);
+  border: 1px solid rgb(205, 56, 55);
+}
+
+.tab-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 35px;
+  column-gap: 40px;
+}

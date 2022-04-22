@@ -1,5 +1,11 @@
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
+  height: 100%;
+  background-color: #383838 !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +16,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  max-height: 999999px;
+}
+
+.main-wrapper {
+  padding: 35px 20px;
 }

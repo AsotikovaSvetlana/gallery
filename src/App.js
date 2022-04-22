@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <header></header>
-      <main>
+      <main className="main-wrapper">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
