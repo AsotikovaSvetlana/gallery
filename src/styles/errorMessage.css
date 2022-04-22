@@ -1,0 +1,20 @@
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-container > div {
+  width: 70%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.error-container .btn-danger {
+  width: 150px;
+  background-color: rgb(219, 64, 62);
+}
+
+.error-container .btn-danger:hover {
+  background-color: rgb(205, 56, 55);
+}

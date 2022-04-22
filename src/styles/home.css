@@ -5,6 +5,11 @@
   color: #fff;
 }
 
+.main-pg__loader {
+  display: flex;
+  justify-content: center;
+}
+
 .nav-pills .nav-link {
   padding: 1rem;
   font-size: 16px;

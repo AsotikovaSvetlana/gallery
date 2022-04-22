@@ -4,7 +4,7 @@ import '../styles/galleryItem.css';
 
 const GalleryItem = ({ photo }) => {
   const [button, setButton] = useState("hidden");
-  const { url } = photo;
+  const { download_url: url } = photo;
 
   const showButton = () => {
     setButton("active");
