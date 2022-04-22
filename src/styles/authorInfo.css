@@ -1,0 +1,17 @@
+.author-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+.author-info__txt div:nth-child(1) {
+  font-size: 20px;
+}
+
+.author-info__txt div:nth-child(2) {
+  font-size: 16px;
+  font-style: italic;
+}
