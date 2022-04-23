@@ -1,0 +1,17 @@
+.image-content__wrapper {
+  padding: 30px 15px;
+  font-size: 18px;
+  color: #ebe9e9;
+}
+
+.image-content__text {
+  padding: 10px;
+  font-style: italic;
+}
+
+.image-content__text span {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(219, 64, 62);
+}

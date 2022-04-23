@@ -1,0 +1,18 @@
+.photo-pg__nav-wrapper {
+  padding: 25px 30px 45px;
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+
+.photo-pg__title {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.photo-pg__loading {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}

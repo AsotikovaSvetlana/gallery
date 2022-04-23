@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-export const getData = async () => {
-  const instance = axios.create({
-    baseURL: 'https://picsum.photos/v2/list?limit=24',
-  });
+const instance = axios.create({
+  baseURL: 'https://picsum.photos',
+});
 
-  return await instance.get();
-}
+export const getData = async () => await instance.get('/v2/list?limit=24');
+
+export const getImageInfo = async (id) => await instance.get(`/id/${id}/info`);
