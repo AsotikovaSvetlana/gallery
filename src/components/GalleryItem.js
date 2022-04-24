@@ -18,7 +18,7 @@ const GalleryItem = ({ photo }) => {
 
   const handleButtonClick = (event) => {
     event.preventDefault();
-    navigate(`/gallery/${id}`);
+    navigate(`/images/${id}`);
   }
 
   return (
