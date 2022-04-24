@@ -1,0 +1,80 @@
+.about-pg__wrapper {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  color: #fff;
+}
+
+.about-pg__title {
+  margin-bottom: 45px;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.about-pg__content-name h3 {
+  font-size: 30px;
+}
+
+.about-pg__content-name span {
+  font-size: 22px;
+}
+
+.about-pg__content-contacts {
+  margin-top: 35px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+}
+
+.about-pg__content-contacts p {
+  margin-bottom: 0;
+}
+
+.about-pg__content-contacts p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(219, 64, 62);
+}
+
+.about-pg__content-email p:nth-child(2) a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.row-wrap {
+  padding-top: 40px;
+}
+
+.row-wrap__content {
+  text-align: center;
+}
+
+.row-wrap__content h3 {
+  margin-bottom: 0;
+}
+
+.about-pg__skills .badge {
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.about-pg__summary {
+  padding-top: 60px;
+}
+
+.about-pg__education-list > span {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.about-pg__education-list ul li {
+  color: rgb(219, 64, 62);
+}
+
+.about-pg__education-list ul li span {
+  color: #ffffff;
+}
