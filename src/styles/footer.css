@@ -14,3 +14,7 @@
   margin-right: 15px;
   color: #db403e;
 }
+
+.footer__wrap a:hover {
+  color: rgb(205, 56, 55);
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Navbar, Container, Offcanvas, Nav } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import '../styles/header.css';
@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        <Navbar expand={false}>
+        <Navbar collapseOnSelect expand={false}>
           <Container fluid className="justify-content-end">
             <Navbar.Toggle aria-controls="offcanvasNavbar" />
             <Navbar.Offcanvas
@@ -22,8 +22,8 @@ const Header = () => {
               <Offcanvas.Body>
                 <AuthorInfo />
                 <Nav className="justify-content-end flex-grow-1 p-0 modal-menu mt-5">
-                  <Nav.Link as={Link} to="/" className="m-auto">Home</Nav.Link>
-                  <Nav.Link as={Link} to="/about" className="m-auto">About</Nav.Link>
+                  <Nav.Link as={Link} to="/" className="m-auto" eventKey="1">Home</Nav.Link>
+                  <Nav.Link as={Link} to="/about" className="m-auto" eventKey="2">About</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
