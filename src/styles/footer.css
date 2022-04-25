@@ -1,0 +1,16 @@
+.footer {
+  bottom: 0;
+  padding: 20px 15px;
+  background-color: #1f1f1f;
+}
+
+.footer__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__wrap a {
+  margin-right: 15px;
+  color: #db403e;
+}

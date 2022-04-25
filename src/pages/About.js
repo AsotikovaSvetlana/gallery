@@ -12,7 +12,7 @@ const About = () => {
         <h1 className="about-pg__title">About</h1>
         <section className="about-pg__intro">
           <Row>
-            <Col lg="4" className="d-flex justify-content-center align-items-center">
+            <Col lg="4" className="d-flex justify-content-center align-items-center mb-3">
               <Image
                 src={avatar}
                 width="200"
@@ -48,7 +48,7 @@ const About = () => {
         </section>
         <section className="row-wrap about-pg__summary">
           <Row>
-            <Col lg="4">
+            <Col lg="4" className="mb-3">
               <div className="row-wrap__content about-pg__summary-content">
                 <h3>About me</h3>
                 <span>In few words</span>
@@ -61,7 +61,7 @@ const About = () => {
         </section>
         <section className="row-wrap about-pg__skills">
           <Row>
-            <Col lg="4">
+            <Col lg="4" className="mb-3">
               <div className="row-wrap__content about-pg__skills-content">
                 <h3>Skills</h3>
                 <span>In progress</span>
@@ -76,7 +76,7 @@ const About = () => {
         </section>
         <section className="row-wrap about-pg__education">
           <Row>
-            <Col lg="4">
+            <Col lg="4" className="mb-3">
               <div className="row-wrap__content about-pg__education-content">
                 <h3>Education</h3>
                 <span>In progress</span>
