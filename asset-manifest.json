@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/gallery/static/css/main.c19dc520.css",
-    "main.js": "/gallery/static/js/main.1cb439a1.js",
+    "main.css": "/gallery/static/css/main.2c927a64.css",
+    "main.js": "/gallery/static/js/main.569ce619.js",
     "static/media/about.jpeg": "/gallery/static/media/about.44c43948fa1e4e11e6e1.jpeg",
-    "static/media/close-btn.svg": "/gallery/static/media/close-btn.b542156de381ae7e9fb7.svg",
+    "static/media/tel-icon.svg": "/gallery/static/media/tel-icon.cd1ebe87a636a2c0d7dedc57fb37a238.svg",
+    "static/media/github-icon.svg": "/gallery/static/media/github-icon.525c9c2dc8c9f18e9b07296b058f1c55.svg",
+    "static/media/close-btn.svg": "/gallery/static/media/close-btn.722178a07656c177b94c.svg",
     "index.html": "/gallery/index.html",
-    "static/media/icon-menu.svg": "/gallery/static/media/icon-menu.959d22e3cb35ff4db0b3.svg",
-    "main.c19dc520.css.map": "/gallery/static/css/main.c19dc520.css.map",
-    "main.1cb439a1.js.map": "/gallery/static/js/main.1cb439a1.js.map"
+    "static/media/vk-icon.svg": "/gallery/static/media/vk-icon.aa92857ba0c3149521f2c94be49d7461.svg",
+    "static/media/icon-menu.svg": "/gallery/static/media/icon-menu.ce5dcf17cca78447d12d.svg",
+    "main.2c927a64.css.map": "/gallery/static/css/main.2c927a64.css.map",
+    "main.569ce619.js.map": "/gallery/static/js/main.569ce619.js.map"
   },
   "entrypoints": [
-    "static/css/main.c19dc520.css",
-    "static/js/main.1cb439a1.js"
+    "static/css/main.2c927a64.css",
+    "static/js/main.569ce619.js"
   ]
 }
