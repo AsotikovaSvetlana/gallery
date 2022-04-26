@@ -4,7 +4,8 @@ import {
   GET_IMAGES_SUCCESS,
   GET_IMAGE_DETAILS,
   GET_IMAGE_DETAILS_SUCCESS,
-  GET_IMAGE_DETAILS_ERROR
+  GET_IMAGE_DETAILS_ERROR,
+  SELECT_THEME
 } from './actionTypes';
 
 export const getImagesRequest = () => (
@@ -29,4 +30,8 @@ export const getImageDetailsSuccess = (data) => (
 
 export const getImageDetailsError = () => (
   {type: GET_IMAGE_DETAILS_ERROR}
+)
+
+export const selectTheme = (theme) => (
+  {type: SELECT_THEME, payload: {theme}}
 )

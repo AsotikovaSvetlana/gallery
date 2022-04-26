@@ -5,3 +5,9 @@
   --accent-color: #db403e;
   --primary-hover: #cd3837;
 }
+
+body.light {
+  --primary-background: #9d9c9c;
+  --secondary-background: #fff;
+  --primary-color: #1f1f1f;
+}

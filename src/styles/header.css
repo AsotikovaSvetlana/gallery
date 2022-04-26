@@ -14,6 +14,7 @@
 
 .navbar>.container-fluid {
   padding-right: 35px;
+  column-gap: 30px;
 }
 
 .navbar-light .navbar-toggler {
@@ -51,4 +52,19 @@
 
 .modal-menu a:hover {
   color: var(--primary-hover);
+}
+
+.theme-select .btn-check:checked+.btn-primary {
+  background-color: var(--primary-hover);
+  border-color: var(--primary-hover);
+  box-shadow: 0 0 0 0.25rem #fd313180;
+}
+
+.theme-select .btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.theme-select .btn-primary:focus {
+  box-shadow: none;
 }
