@@ -27,11 +27,11 @@
   left: calc(50% - 90px);
   top: calc(50% - 25px);
   z-index: 3;
-  background-color: rgb(219, 64, 62);
+  background-color: var(--accent-color);
   border: none;
   outline: none;
   font-weight: 600;
-  color: #FFFFFF;
+  color: var(--primary-color);
   font-size: 16px;
   line-height: 20px;
   border-radius: 3px;
@@ -39,7 +39,7 @@
 }
 
 .photo-button:hover {
-  background-color: rgb(205, 56, 55);
+  background-color: var(--primary-hover);
 }
 
 .hidden {

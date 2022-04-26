@@ -1,7 +1,7 @@
 .image-content__wrapper {
   padding: 30px 15px;
   font-size: 18px;
-  color: #ebe9e9;
+  color: var(--primary-color);
 }
 
 .image-content__text {
@@ -13,5 +13,5 @@
   font-size: 20px;
   font-weight: 600;
   font-style: normal;
-  color: rgb(219, 64, 62);
+  color: var(--accent-color);
 }

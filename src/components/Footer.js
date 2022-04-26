@@ -9,7 +9,7 @@ const Footer = () => {
     <>
       <div className="footer">
         <div className="footer__wrap">
-          <a href="" target="_blank" rel="noreferrer">
+          <a href="https://vk.com" target="_blank" rel="noreferrer">
             <Vk />
           </a>
           <a href="https://t.me/asotikova" target="_blank" rel="noreferrer">

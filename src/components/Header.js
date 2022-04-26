@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Navbar, Container, Offcanvas, Nav } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import '../styles/header.css';

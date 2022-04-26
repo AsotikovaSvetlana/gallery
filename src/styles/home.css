@@ -2,7 +2,7 @@
   margin-bottom: 45px;
   font-size: 40px;
   text-align: center;
-  color: #fff;
+  color: var(--primary-color);
 }
 
 .main-pg__loader {
@@ -17,7 +17,7 @@
   text-align: center;
   border: 2px solid darkgray;
   border-bottom: none;
-  color: #fff;
+  color: var(--primary-color);
   cursor: pointer;
 }
 
@@ -26,9 +26,9 @@
 }
 
 .nav-pills .nav-link.active {
-  color: #fff;
-  background-color: rgb(219, 64, 62);
-  border: 1px solid rgb(205, 56, 55);
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+  border: 1px solid var(--primary-hover);
 }
 
 .tab-list {

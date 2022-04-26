@@ -12,9 +12,9 @@
 
 .error-container .btn-danger {
   width: 150px;
-  background-color: rgb(219, 64, 62);
+  background-color: var(--accent-color);
 }
 
 .error-container .btn-danger:hover {
-  background-color: rgb(205, 56, 55);
+  background-color: var(--primary-hover);
 }

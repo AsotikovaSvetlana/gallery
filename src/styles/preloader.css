@@ -8,7 +8,7 @@
   top: 36.765px;
   position: absolute;
   animation: loader-content linear 1.3513513513513513s infinite;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
   width: 10.26px;
   height: 22.23px;
   border-radius: 5.13px / 11.115px;
@@ -18,91 +18,91 @@
 .loader-content div:nth-child(1) {
   transform: rotate(0deg);
   animation-delay: -1.2612612612612613s;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
 }
 
 .loader-content div:nth-child(2) {
   transform: rotate(24deg);
   animation-delay: -1.1711711711711712s;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
 }
 
 .loader-content div:nth-child(3) {
   transform: rotate(48deg);
   animation-delay: -1.0810810810810811s;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
 }
 
 .loader-content div:nth-child(4) {
   transform: rotate(72deg);
   animation-delay: -0.990990990990991s;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
 }
 
 .loader-content div:nth-child(5) {
   transform: rotate(96deg);
   animation-delay: -0.9009009009009009s;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
 }
 
 .loader-content div:nth-child(6) {
   transform: rotate(120deg);
   animation-delay: -0.8108108108108109s;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
 }
 
 .loader-content div:nth-child(7) {
   transform: rotate(144deg);
   animation-delay: -0.7207207207207208s;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
 }
 
 .loader-content div:nth-child(8) {
   transform: rotate(168deg);
   animation-delay: -0.6306306306306306s;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
 }
 
 .loader-content div:nth-child(9) {
   transform: rotate(192deg);
   animation-delay: -0.5405405405405406s;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
 }
 
 .loader-content div:nth-child(10) {
   transform: rotate(216deg);
   animation-delay: -0.45045045045045046s;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
 }
 
 .loader-content div:nth-child(11) {
   transform: rotate(240deg);
   animation-delay: -0.3603603603603604s;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
 }
 
 .loader-content div:nth-child(12) {
   transform: rotate(264deg);
   animation-delay: -0.2702702702702703s;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
 }
 
 .loader-content div:nth-child(13) {
   transform: rotate(288deg);
   animation-delay: -0.1801801801801802s;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
 }
 
 .loader-content div:nth-child(14) {
   transform: rotate(312deg);
   animation-delay: -0.0900900900900901s;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
 }
 
 .loader-content div:nth-child(15) {
   transform: rotate(336deg);
   animation-delay: 0s;
-  background: rgb(219, 64, 62);
+  background: var(--accent-color);
 }
 
 .loader-wrap {
@@ -120,7 +120,7 @@
   position: relative;
   transform: translateZ(0) scale(1);
   backface-visibility: hidden;
-  transform-origin: 0 0; /* see note above */
+  transform-origin: 0 0;
 }
 
 .loader-content div {

@@ -6,6 +6,7 @@ import Photo from './pages/Photo';
 import ErrorPage from './pages/ErrorPage';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import './styles/variables.css';
 
 function App() {
   return (

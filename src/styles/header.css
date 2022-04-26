@@ -4,7 +4,7 @@
 }
 
 .header {
-  background-color: #1f1f1f;
+  background-color: var(--secondary-background);
 }
 
 .navbar {
@@ -17,8 +17,8 @@
 }
 
 .navbar-light .navbar-toggler {
-  color: rgb(219, 64, 62);
-  border-color: rgb(219, 64, 62);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .navbar-toggler:focus {
@@ -30,11 +30,11 @@
 }
 
 .offcanvas {
-  background-color: #1a1a1a;
+  background-color: var(--secondary-background);
 }
 
 .offcanvas-title {
-  color: rgb(219, 64, 62);
+  color: var(--accent-color);
 }
 
 .btn-close {
@@ -46,9 +46,9 @@
 }
 
 .modal-menu a {
-  color: rgb(219, 64, 62);
+  color: var(--accent-color);
 }
 
 .modal-menu a:hover {
-  color: rgb(205, 56, 55);
+  color: var(--primary-hover);
 }

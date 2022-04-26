@@ -12,9 +12,9 @@
 
 .footer__wrap a {
   margin-right: 15px;
-  color: #db403e;
+  color: var(--accent-color);
 }
 
 .footer__wrap a:hover {
-  color: rgb(205, 56, 55);
+  color: var(--primary-hover);
 }

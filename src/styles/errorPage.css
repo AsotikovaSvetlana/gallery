@@ -1,5 +1,5 @@
 .error-pg__wrapper {
   padding-top: 80px;
   text-align: center;
-  color: #ffffff;
+  color: var(--primary-color);
 }
