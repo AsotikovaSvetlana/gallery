@@ -1,5 +1,7 @@
 # Gallery
-https://asotikovasvetlana.github.io/gallery/
+### [Demo](https://asotikovasvetlana.github.io/gallery/)
+
+Сайт-галерея на React. Интерфейс рализован с помощью UI-библиотеки React-bootstrap, хранение состояния - Redux, выполнение сайд-эффектов - Redux-Saga.
 
 ---
 
@@ -14,5 +16,3 @@ React, Redux, Redux Saga, Axios, React Bootstrap, React Router, HTML, CSS
 - Перейдите в папку с проектом: `cd gallery`
 - Установите зависимости: `npm install`
 - Запустите проект: `npm start`
-
----
