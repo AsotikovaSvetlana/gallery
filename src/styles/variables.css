@@ -4,10 +4,12 @@
   --primary-color: #fff;
   --accent-color: #db403e;
   --primary-hover: #cd3837;
+  --border-color: darkgray;
 }
 
 body.light {
-  --primary-background: #9d9c9c;
-  --secondary-background: #fff;
+  --primary-background: #fff;
+  --secondary-background: #f1f1f1;
   --primary-color: #1f1f1f;
+  --border-color: #cd3837;
 }
